@@ -1,0 +1,12 @@
+{
+  "topic": "Layered Architecture",
+  "date": "2024-02-26",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/MyQueue.java"
+
+  ],
+  "video": ""
+}
