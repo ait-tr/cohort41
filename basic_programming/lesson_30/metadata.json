@@ -5,8 +5,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/MyQueue.java"
-
+    "src/enums/Day.java",
+    "src/enums/Person.java",
+    "src/enums/DaysMain.java",
+    "src/model/User.java",
+    "src/model/Role.java",
+    "src/model/Product.java",
+    "src/repository/UserRepository.java",
+    "src/service/UserService.java",
+    "src/view/Menu.java"
   ],
   "video": ""
 }
