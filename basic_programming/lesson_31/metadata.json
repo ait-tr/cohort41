@@ -1,0 +1,12 @@
+{
+  "topic": "Teamwork with Git. Branches",
+  "date": "2024-02-27",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/MyQueue.java"
+
+  ],
+  "video": ""
+}
