@@ -1,0 +1,15 @@
+
+
+
+Описание сервисов:
+
+1) сервис по добавлению товара в MyList<Товар>
+ - boolean add(Product newProduct)
+  Product :
+  {
+  "id" : 1,
+  "productName" : "phone",
+  ...
+  }
+
+
