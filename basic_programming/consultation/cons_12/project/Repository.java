@@ -1,3 +1,5 @@
+package project;
+
 public class Repository {
     InterfaceForService1 service1 = new Service1();
 
