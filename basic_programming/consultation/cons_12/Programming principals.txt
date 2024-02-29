@@ -1,0 +1,29 @@
+SOLID
+
+- S - Single-responsibility principle (SRP)- принцип единой ответственности
+- O - Open-close principal - принцип открытости/закрытости
+- L - Liskov substitution principle - Принцип подстановки Лисков
+- I - Interface segregation principle - Принцип разделения интерфейсов
+- D - Dependency Inversion Principle - Принцип инверсии зависимостей
+
+
+DRY
+
+Don't repeat yourself - НЕ ПОВТОРЯЙТЕСЬ !!!
+
+SSOT - single source of truth - единый источник правды (истины)
+
+
+KISS
+
+Keep it simple, stupid
+Keep it stupid simple
+
+
+YAGNI
+You ain't gonna need it - Вам это не понадобится
+
+(Agile)
+
+SoC
+Separation of concerns - распределение ответственности
