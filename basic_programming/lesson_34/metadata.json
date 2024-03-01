@@ -1,0 +1,12 @@
+{
+  "topic": "Project1 Day2",
+  "date": "2024-03-01",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/MyQueue.java"
+
+  ],
+  "video": ""
+}
