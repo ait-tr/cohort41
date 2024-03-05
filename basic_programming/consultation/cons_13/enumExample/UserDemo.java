@@ -28,5 +28,8 @@ public class UserDemo {
             System.out.println("активный пользователь # 21");
         }
 
+        userWithEnum1.setStatus(Status.HOLD);
+        System.out.println(userWithEnum1);
+
     }
 }
