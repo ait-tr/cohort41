@@ -5,8 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    ""
-
+    "src/ComparableExample.java",
+    "src/CarSpeedComparator.java",
+    "src/ComparingExample.java",
+    "src/Car.java"
   ],
   "video": ""
 }
