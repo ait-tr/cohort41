@@ -5,8 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    ""
-
+    "src/CollectionExample.java",
+    "src/ListExample.java",
+    "src/IteratorExample.java",
+    "src/homework_36/HW36_Task1_2.java",
+    "src/homework_36/Task1Comparator.java",
+    "src/homework_36/TestComparator.java"
   ],
   "video": ""
 }
