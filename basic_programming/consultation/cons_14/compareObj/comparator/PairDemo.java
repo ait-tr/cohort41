@@ -26,6 +26,12 @@ public class PairDemo {
 
         System.out.println(Arrays.toString(pairs));
 
+        Comparator<Pair> twinComparator = new PairComparatorInteger().thenComparing(new PairComparatorString());
+
+        Arrays.sort(pairs, twinComparator);
+
+        System.out.println(Arrays.toString(pairs));
+
 
 
     }
