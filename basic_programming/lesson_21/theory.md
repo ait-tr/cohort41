@@ -1,7 +1,7 @@
 ### Агрегация и композиция
 
 Наследование описывает связь «является» (или по-английски «IS A»).
-Собака является Животным. Такое отношение легко выразить с помощью наследования, где Animal будет родительским классом, а Dog — потомком.
+Собака является Животным. Такое отношение легко выразить с помощью наследования, где Animal будет родительским классом, а oop.Dog — потомком.
 
 Однако далеко не все связи можно описать таким образом.
 К примеру, принтер определенно как-то связана с компьютером, но она не является компьютером. Ноги как-то связаны с человеком, но они не являются человеком.
@@ -22,7 +22,7 @@
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
 
 
-Inheritance describes an "IS A" relationship. For example, a Dog IS A Animal. Such a relationship can be easily expressed using inheritance, where Animal would be the parent class, and Dog would be the child class.
+Inheritance describes an "IS A" relationship. For example, a oop.Dog IS A Animal. Such a relationship can be easily expressed using inheritance, where Animal would be the parent class, and oop.Dog would be the child class.
 
 However, not all relationships can be described in this way. For instance, a printer is definitely related to a computer, but it is not a computer. Legs are somehow related to a person, but they are not a person.
 

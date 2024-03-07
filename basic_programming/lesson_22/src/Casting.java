@@ -40,7 +40,7 @@ public class Casting {
             }
 
             if (animals[i] instanceof Dog) {
-                System.out.println(animals[i] + " casting to Dog");
+                System.out.println(animals[i] + " casting to oop.Dog");
                 Dog dog = (Dog) animals[i];
                 dog.voice();
             } else {
