@@ -1,4 +1,4 @@
-package compareObj;
+package compareObj.comparable;
 
 import java.util.Arrays;
 

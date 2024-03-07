@@ -1,4 +1,4 @@
-package compareObj;
+package compareObj.comparable;
 
 public class Cat implements Comparable<Cat>{
     String name;
