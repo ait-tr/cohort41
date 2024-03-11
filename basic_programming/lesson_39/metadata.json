@@ -5,8 +5,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "src/MapExample.java",
     "src/HashMap/MyHashMap.java",
-    "src/HashMap/InterfaceHashMap.java"
+    "src/HashMap/InterfaceHashMap.java",
+    "src/homework38/HW38_Task1.java",
+    "src/homework38/HW38_Task2.java",
+    "src/homework38/HW38_Task3.java"
+
+
 
   ],
   "video": ""
