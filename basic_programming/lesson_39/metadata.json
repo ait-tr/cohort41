@@ -1,0 +1,13 @@
+{
+  "topic": "Карты. Interface Map и его реализации",
+  "date": "2024-03-11",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/HashMap/MyHashMap.java",
+    "src/HashMap/InterfaceHashMap.java"
+
+  ],
+  "video": ""
+}
