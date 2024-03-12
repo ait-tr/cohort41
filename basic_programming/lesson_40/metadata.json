@@ -5,7 +5,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    ""
+    "src/InterfacesExample.java",
+    "src/StreamExample.java",
+    "src/Cat.java",
+    "src/homework_39/HW39_Task1.java",
+    "src/homework_39/HW39_Task3.java"
 
   ],
   "video": ""
