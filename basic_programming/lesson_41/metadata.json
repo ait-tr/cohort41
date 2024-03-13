@@ -5,7 +5,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    ""
+    "src/StreamExample.java",
+    "src/DataFilters.java",
+    "src/Cat.java",
+    "src/homework_40/HW40_Task123.java",
+    "src/homework_40/HW40_Task4.java"
 
   ],
   "video": ""
