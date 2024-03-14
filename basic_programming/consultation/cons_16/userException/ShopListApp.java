@@ -7,7 +7,9 @@ import java.util.InputMismatchException;
 public class ShopListApp {
     public static void main(String[] args) {
 
-        ProductService service = new ProductService();
+        //ProductService service = new ProductService();
+        ProductServiceWithException service = new ProductServiceWithException();
+
         UserInput ui = new UserInput();
 
         while (true) {
@@ -22,6 +24,8 @@ public class ShopListApp {
                 System.out.println("Incorrect number entered");
             } catch (InputMismatchException e) {
                 System.out.println("Incorrect input type entered");
+            } catch (ProductValidationException e) {
+                System.out.println(e.getMessage());
             }
         }
     }
