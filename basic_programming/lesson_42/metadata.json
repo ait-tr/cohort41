@@ -5,8 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    ""
-
+    "src/DataChange.java",
+    "src/TerminalsMethods.java",
+    "src/ReduceExample.java",
+    "src/Shop.java",
+    "src/groupBy/GroupByExample.java",
+    "src/groupBy/Employee.java"
   ],
   "video": ""
 }
