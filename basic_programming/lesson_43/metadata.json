@@ -5,7 +5,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    ""
+    "src/ExceptionExample.java",
+    "src/EmailValidateException.java",
+    "src/EmailValidator.java",
+    "src/ValidationEmailApp.java"
 
   ],
   "video": ""
