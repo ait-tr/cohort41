@@ -49,6 +49,59 @@ Java IO (Input/Output) - это часть Java Standard Edition API, предо
 - и т.д.
 
 
+## Буферизированные Классы в Java IO
+
+Буферизированные классы в Java IO значительно повышают производительность за счёт уменьшения числа операций ввода-вывода.
+
+Для использования `BufferedReader` и `BufferedWriter` важно понимать процесс их создания и конструкторы, которые они используют.
+
+Эти классы обертывают другие потоки чтения и записи, такие как `FileReader` и `FileWriter`, для буферизации данных.
+
+**Ключевым моментом** здесь является то, что `BufferedReader` и `BufferedWriter` являются обертками.
+
+**Они не работают с файлами напрямую**, а используют другие потоки (как `FileReader`/`FileWriter`) для доступа к файлам.
+
+Буферизация добавляет дополнительный слой, который улучшает производительность за счёт снижения количества обращений к источнику данных или месту назначения.
+
+
+
+### 1. BufferedReader
+- **Основное Применение:** Буферизированное чтение текстовых данных из потока ввода.
+- **Важные Методы:**
+   - `read()`: Читает один символ.
+   - `read(char[] cbuf, int off, int len)`: Читает символы в массив.
+   - `readLine()`: Читает строку текста.
+   - `close()`: Закрывает поток.
+- **Пример:**
+  ```
+  try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
+      String line;
+      while ((line = br.readLine()) != null) {
+          System.out.println(line);
+      }
+  }
+  ```
+
+### 2. BufferedWriter
+- **Основное Применение:** Буферизированная запись текстовых данных в поток вывода.
+- **Важные Методы:**
+   - `write(int c)`: Записывает один символ.
+   - `write(char[] cbuf, int off, int len)`: Записывает массив символов.
+   - `write(String s, int off, int len)`: Записывает строку.
+   - `newLine()`: Добавляет перевод строки.
+   - `flush()`: Сбрасывает буфер в поток вывода.
+   - `close()`: Закрывает поток.
+- **Пример:**
+  ```
+  try (BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"))) {
+      bw.write("Some text");
+      bw.newLine();
+      bw.write("More text");
+      bw.flush();
+  }
+  ```
+
+
 
 <details style="margin-top: 16px">
   <summary style="cursor: pointer; color: green;"><b>English</b></summary>
