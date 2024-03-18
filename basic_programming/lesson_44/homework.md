@@ -1,5 +1,23 @@
 #### Task 1
 
+Дан файл `text.txt`:
+```text
+Lorem ipsum dolor sit amet, consectetur adipisicing.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Lorem, ipsum dolor.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia.
+Lorem, ipsum.
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Lorem ipsum dolor sit.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo!
+```
+
+Ваша задача используя классы пакета `java.io` создать файл с именем 'copy.txt' и скопировать в него все данные из файла 'text.txt'
+
+
+#### Task 2
+
 Дан файл с историей поступлений денег на счета пользователей за некий период времени:
 ```text
 user1:2050
