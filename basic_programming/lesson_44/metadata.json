@@ -5,7 +5,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/"
+    "src/io/IoExample.java",
+    "src/io/WriterReaderExample.java",
+    "src/io/Task1.java",
+    "src/cats/CatsWriterReader.java",
+    "src/cats/Catty.java",
+    "src/cats/cats.txt"
 
 
   ],
