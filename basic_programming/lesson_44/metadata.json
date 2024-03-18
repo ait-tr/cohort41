@@ -1,0 +1,13 @@
+{
+  "topic": "Java IO. Работа с файлами",
+  "date": "2024-03-18",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/"
+
+
+  ],
+  "video": ""
+}
