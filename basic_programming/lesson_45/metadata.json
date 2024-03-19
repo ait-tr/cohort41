@@ -5,7 +5,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "src/"
+    "src/TimeApi.java",
+    "src/hw/task1/Task1.java",
+    "src/hw/task2/Task2.java",
+    "src/hw/task2/DataTransfer.java",
+    "src/hw/task2/data.txt",
+    "src/hw/task2/less.txt",
+    "src/hw/task2/more.txt"
 
 
   ],
