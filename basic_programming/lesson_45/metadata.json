@@ -1,0 +1,13 @@
+{
+  "topic": "Java Time API",
+  "date": "2024-03-19",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/"
+
+
+  ],
+  "video": ""
+}
