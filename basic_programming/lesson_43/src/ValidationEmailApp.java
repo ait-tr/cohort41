@@ -1,7 +1,3 @@
-/*
-@date 15.03.2024
-@author Sergey Bugaienko
-*/
 
 public class ValidationEmailApp {
     public static void main(String[] args) {

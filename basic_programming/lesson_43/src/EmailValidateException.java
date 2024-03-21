@@ -1,7 +1,5 @@
-/*
-@date 15.03.2024
-@author Sergey Bugaienko
-*/
+
+
 
 public class EmailValidateException extends Exception {
     /*

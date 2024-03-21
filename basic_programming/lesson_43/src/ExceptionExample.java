@@ -1,7 +1,5 @@
-/*
-@date 15.03.2024
-@author Sergey Bugaienko
-*/
+
+
 
 import java.net.MalformedURLException;
 import java.net.URL;

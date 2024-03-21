@@ -1,7 +1,3 @@
-/*
-@date 15.03.2024
-@author Sergey Bugaienko
-*/
 
 public class EmailValidator {
     // ключевое слово throw - используется для явного выброса (порождения/инициализации) исключения
