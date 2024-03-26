@@ -1,6 +1,7 @@
 package code.exceptions;
 
-import loop.UserInput;
+
+import code.loop.UserInput;
 
 public class Example1 {
     public static void main(String[] args) {

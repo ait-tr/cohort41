@@ -1,6 +1,6 @@
 package code.exceptions;
 
-import loop.UserInput;
+import code.loop.UserInput;
 
 import java.util.InputMismatchException;
 
