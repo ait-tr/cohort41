@@ -24,7 +24,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "code.Dog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", breed=" + breed +

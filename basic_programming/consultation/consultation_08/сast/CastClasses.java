@@ -53,7 +53,7 @@ public class CastClasses {
         Cat cat1Cat = (Cat) cat1;
         cat1Cat.meow();
 
-       // Cat dog1Cat = (Cat) dog1; - ОШИБКА - класс oop.Dog не может быть переведен в Cat!!!
+       // Cat dog1Cat = (Cat) dog1; - ОШИБКА - класс oop.code.Dog не может быть переведен в Cat!!!
 
 
       //  dog1Cat.meow();
