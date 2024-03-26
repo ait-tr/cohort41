@@ -61,7 +61,7 @@ public class MyClass {
 
 ## Methods
 
-**Methods** in Java are a complete sequence of actions (instructions) aimed at solving a specific task.
+**Methods** in Java are a complete sequence of actions (instructions) aimed at solving a specific code.task.
 
 ```
 [modifiers] returnType methodName ([parameters]) {

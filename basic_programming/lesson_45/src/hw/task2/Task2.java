@@ -33,9 +33,9 @@ import java.util.Map;
 public class Task2 {
 
     private static final int LIMIT = 2000;
-    private static final String FILE_DATA = "src/homework_44/task2/data.txt";
-    private static final String FILE_LESS = "src/homework_44/task2/less.txt";
-    private static final String FILE_MORE = "src/homework_44/task2/more.txt";
+    private static final String FILE_DATA = "src/homework_44/code.task2/data.txt";
+    private static final String FILE_LESS = "src/homework_44/code.task2/less.txt";
+    private static final String FILE_MORE = "src/homework_44/code.task2/more.txt";
 
     public static void main(String[] args) {
         /*

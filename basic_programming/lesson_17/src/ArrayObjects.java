@@ -51,7 +51,7 @@ public class ArrayObjects {
         }
 
         System.out.println(" ===================== ");
-        Person test = new Person("Test", 50, "test");
+        Person test = new Person("Test", 50, "code/test");
         people[3] = test;
 
         test = null;

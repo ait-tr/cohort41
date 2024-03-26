@@ -145,7 +145,7 @@ In the IT field, there are various development directions, here are the most com
 - **Data Science and Data Analysis** - storage, processing, and analysis of large volumes of data.
 
 
-The world of web development — when speaking solely about programmers (excluding adjacent IT specialties) — can be divided into two categories: **frontend** and **backend**. Frontend (from English "frontend" — "the visible part") includes everything that the user sees on the screen or interacts with using the mouse cursor, such as buttons on a website. When a user clicks a button, the backend (from English "backend" — "the hidden part") comes into play. Its task is to organize interactions with databases and other servers, configure the search for the necessary information, and send it back to the user.
+The world of web development — when speaking solely about programmers (excluding adjacent IT specialties) — can be divided into two categories: **frontend** and **backend**. Frontend (from English "frontend" — "the visible part") includes everything that the user sees on the screen or interacts with using the mouse cursor, such as buttons on a website. When a user clicks a button, the backend (from English "backend" — "the hidden part") comes into play. Its code.task is to organize interactions with databases and other servers, configure the search for the necessary information, and send it back to the user.
 
 **Frontend** - the visual side; **Backend** - everything under the hood.
 

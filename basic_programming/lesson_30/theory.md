@@ -152,7 +152,7 @@ In such an architecture, an application is divided into separate layers, each wi
 
 Key characteristics of layered architecture:
 
-- **Layer Isolation**: Each layer focuses on performing its specific task and interacts only with the layer directly preceding or following it. This ensures a clear separation of responsibilities between the system's components.
+- **Layer Isolation**: Each layer focuses on performing its specific code.task and interacts only with the layer directly preceding or following it. This ensures a clear separation of responsibilities between the system's components.
 - **Abstraction**: Upper layers are unaware of the implementation details of lower layers, allowing changes to the implementation of lower layers without affecting the upper ones.
 - **Interchangeability and Scalability**: Thanks to the clear separation of layers, individual parts of the system can be easily replaced or scaled without affecting the rest.
 - **Ease of Testing and Maintenance**: Each layer can be tested independently from the others, simplifying the development process and application maintenance.

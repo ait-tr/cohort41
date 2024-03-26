@@ -83,7 +83,7 @@ The first carriage (head of the list) has a door only leading forward, while the
 ### Practical Exercise
 **Task:** Create a basic implementation of a doubly-linked list to understand its internal structure and working methods.
 
-- Minimum task requirements: Implement the following methods:
+- Minimum code.task requirements: Implement the following methods:
     - `add(T value)` - add an element to the end of the list.
     - `add(int index, T value)` - add an element to the specified position.
     - `remove(int index)` - delete an element from the specified position.

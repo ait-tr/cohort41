@@ -97,7 +97,7 @@ There are many definitions for the phenomenon of polymorphism. Including some th
 
 **Polymorphism** is the ability to work with several types as if they were the same type, while at the same time, the behavior of each type will be unique depending on its implementation.
 
-**Polymorphism** is one of the four fundamental concepts of object-oriented programming that allows accomplishing a particular task (action) in several ways.
+**Polymorphism** is one of the four fundamental concepts of object-oriented programming that allows accomplishing a particular code.task (action) in several ways.
 
 Polymorphism enables treating objects as objects of their base class, allowing for the writing of general code, making it more flexible and reusable. It allows for the creation of more reusable and maintainable code and also enhances the readability of the code.
 

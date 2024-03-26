@@ -32,7 +32,7 @@ public class StreamExample {
 
 //        task1();
 
-//        task2();
+//        code.task2();
 
 //        task3();
 //        task4();

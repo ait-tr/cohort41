@@ -112,7 +112,7 @@ ___
 ## Methods
 **Методы** в Java — это законченная последовательность действий (инструкций), направленных на решение отдельной задачи
 
-**Methods** in Java are a complete sequence of actions (instructions) aimed at solving a specific task.
+**Methods** in Java are a complete sequence of actions (instructions) aimed at solving a specific code.task.
 
 ```
 [modifiers] returnType methodName ([parameters]) {

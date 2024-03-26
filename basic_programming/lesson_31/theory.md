@@ -247,10 +247,10 @@ Overall, the choice between these models depends on the size of the team, the ty
 3. Configure protection for the `main` branch
 4. Clone the repo (download to your computer)
 5. Open the repo in your favorite editor
-6. Create a separate branch for the task
+6. Create a separate branch for the code.task
     - `git checkout -b new-branch-name`
     - `git checkout -b sergey/create-hello-file`
-7. Solve the task (make changes to the project)
+7. Solve the code.task (make changes to the project)
 8. Commit the changes
     - `git add .`
     - `git commit -m 'update'`

@@ -20,7 +20,7 @@ public class HW39_Task3 {
         map1.put("apple", 50);
         map1.put("banana", 20);
         map1.put("cherry", 30);
-        map1.put("test", 100);
+        map1.put("code/test", 100);
 
         Map<String, Integer> map2 = new HashMap<>();
         map2.put("banana", 25);
@@ -31,7 +31,7 @@ public class HW39_Task3 {
         Set<String> keySetMap1 = map1.keySet();
 
         Set<String> newSet = new HashSet<>(keySetMap1);
-        newSet.remove("test");
+        newSet.remove("code/test");
         System.out.println("newSet: " + newSet);
 
 //        Map<String, Integer> intersectionMap = intersection(map1, map2);

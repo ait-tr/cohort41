@@ -1,8 +1,8 @@
 Найти ошибку в коде.
 Исправить и запустить программу.
-Менять можно только класс Phone.
+Менять можно только класс code.Phone.
 
-class Phone {
+class code.Phone {
 
     String model;{
 
@@ -19,9 +19,9 @@ class Phone {
 class PhoneDemo {
 
     public static void main(String[] args) {
-        Phone myPhone = new Phone("Huawei");
+        code.Phone myPhone = new code.Phone("Huawei");
         String phoneModel = myPhone.getModel();
-        System.out.println("Phone model = " + phoneModel);
+        System.out.println("code.Phone model = " + phoneModel);
     }
 
 }

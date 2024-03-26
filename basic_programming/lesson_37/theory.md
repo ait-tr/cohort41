@@ -183,7 +183,7 @@ List<String> list = Collections.unmodifiableList(new ArrayList<String>(Arrays.as
 Attempting to add or remove elements from an immutable collection will throw an `UnsupportedOperationException`.
 
 
-Choosing a specific JCF collection implementation depends on performance requirements, order of elements, and other factors specific to the task at hand.
+Choosing a specific JCF collection implementation depends on performance requirements, order of elements, and other factors specific to the code.task at hand.
 
 
 ### Iterators

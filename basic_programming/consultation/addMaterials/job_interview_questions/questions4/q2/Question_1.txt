@@ -1,7 +1,7 @@
 Q1. What types of loops does Java support?
     Java offers three different types of loops: for, while, and do-while.
 
-    A for loop provides a way to iterate over a range of values. It's most useful when we know in advance how many times a task is going to be repeated:
+    A for loop provides a way to iterate over a range of values. It's most useful when we know in advance how many times a code.task is going to be repeated:
 
     for (int i = 0; i < 10; i++) {
          // ...
