@@ -1,0 +1,54 @@
+/* * {
+  color: rgb(139, 61, 61);
+} */
+
+body {
+  margin: 10px;
+}
+
+footer {
+  border: 1px solid darkgray;
+}
+
+#heading {
+  color: darkblue;
+}
+
+header {
+  border-radius: 10px;
+  border: 2px dashed black;
+}
+
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: red;
+}
+
+.sectionFirst {
+  font-style: italic;
+}
+
+.sectionSecond {
+  text-decoration: underline;
+}
+
+.bigText {
+  font-size: 40px;
+}
+
+.smallText {
+  font-size: 18px;
+}
+
+.firstLi {
+  cursor: pointer;
+  background-color: rgb(252, 195, 195);
+}
+
+li {
+  color: darkgreen;
+  background-color: lightgrey;
+}
