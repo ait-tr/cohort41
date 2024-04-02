@@ -1,0 +1,30 @@
+img {
+   height: 400px;
+}
+
+.headline {
+   color: #FF6850;
+   font-size: 40px;
+   text-decoration: underline;
+}
+
+.subheader {
+   width: 50%;
+   border: 1px solid #FF6850;
+}
+
+.author {
+   font-size: 15px;
+   color: black;
+   font-style: italic;
+}
+
+.author:hover {
+   color: #FF6850;
+}
+
+.intro > span {
+   text-decoration: underline;
+   color: #FF6850;
+   font-weight: 600;
+}
