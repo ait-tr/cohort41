@@ -1,0 +1,81 @@
+* {
+   /* padding не увеличивают контейнер */
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+
+main {
+   width: 400vh;
+}
+
+.header {
+   width: 100%;
+   min-height: 80px;
+   /* верх/ право + лево / низ */
+   /* мешает элементам в header приживаться к краю */
+   padding: 20px 0 15px;
+   background-image: url('imagebanner.jpeg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   /* сделали nav по центру header */
+   justify-content: center;
+}
+
+.logo {
+   /* сделали картинку меньше */
+   height: 30px;
+}
+
+/* внутренняя обертка в header */
+.nav {
+   display: flex;
+   /* по поперечной оси сдвинули элементы вниз */
+   align-items: end;
+   /* ограничили контейнер по ширине */
+   width: 700px;
+   /* по главной оси равномерно распределили пространство */
+   justify-content: space-between;
+}
+
+.navContainer {
+   /* для внутренних контейнеров с иконками и текстом задаем выравнивание по горизонтали и к низу */
+   display: flex;
+   align-items: end;
+}
+
+.navContainer>span {
+   cursor: pointer;
+   /* плавный переход для прозрачности */
+   transition: opacity 0.2s ease-in-out;
+   color: white;
+   opacity: 50%;
+}
+
+.icon {
+   cursor: pointer;
+   transition: opacity 0.2s ease-in-out;
+   margin-right: 5px;
+   opacity: 0.5;
+}
+
+
+.input {
+   opacity: 0.5;
+   transition: opacity 0.2s ease-in-out;
+   cursor: pointer;
+}
+
+.input:hover {
+   opacity: 1;
+}
+
+/* hover для нескольких элементов */
+.navContainer:hover .playHeading,
+.navContainer:hover .icon,
+.navContainer:hover .oscarHeading {
+   opacity: 1;
+}

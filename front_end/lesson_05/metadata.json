@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/task_fe-css-flexbox-header-cinema/style.css",
+    "./code/task_fe-css-flexbox-header-cinema/index.html",
+    "./code/position-css/index.html",
+    "./code/position-css/style.css"
+  ],
+  "video": "",
+  "etc": ""
+}
