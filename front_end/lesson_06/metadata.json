@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/task_fe-css-position-movie-card/index.html",
+    "./code/task_fe-css-position-movie-card/style.css",
+    "./code/grid-layout/index.html",
+    "./code/grid-layout/style.css"
+  ],
+  "video": "",
+  "etc": ""
+}

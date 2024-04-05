@@ -1,0 +1,74 @@
+p {
+   margin: 0;
+}
+
+.containerGrid {
+   width: 100%;
+   display: grid;
+   /* шаблон схема построения колонок в grid */
+   /* grid-template-columns: 25% 25% 50%; */
+   grid-template-columns: repeat(5, 1fr);
+   gap: 5px;
+   /* grid-template-rows: 50px 100px; */
+   grid-auto-rows: 50px;
+}
+
+.gridItem {
+   background-color: cornflowerblue;
+}
+
+.containerGridMinMax {
+   width: 100%;
+   display: grid;
+   gap: 5px;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-auto-rows: 100px;
+}
+
+.gridItemAdaptiv {
+   background-color: goldenrod;
+}
+
+.containerGridAreas {
+   width: 100%;
+   height: 600px;
+   display: grid;
+   gap: 10px;
+   grid-template-rows: repeat(4, 1fr);
+   grid-template-areas:
+      'header header header'
+      'content content item'
+      'content content 🐥'
+      'footer footer footer'
+   ;
+}
+
+
+.content {
+   background-color: lightblue;
+   grid-area: content;
+}
+
+.top {
+   display: flex;
+   justify-content: center;
+   background-color: lightpink;
+   grid-area: header;
+}
+
+.bottom {
+   background-color: lightgreen;
+   grid-area: footer;
+}
+
+.chicken {
+   grid-area: 🐥;
+}
+
+
+.smth {
+   background-image: url('https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint');
+   background-size: cover;
+   background-position: center;
+   grid-area: item;
+}
