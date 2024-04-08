@@ -1,0 +1,123 @@
+* {
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: italic;
+}
+
+body {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+.main {
+   flex: 1;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 50px;
+   position: sticky;
+   top: 0px;
+   width: 100%;
+   min-height: 80px;
+   background-color: coral;
+}
+
+.logo {
+   position: relative;
+}
+
+.cloud {
+   position: absolute;
+   bottom: 7px;
+   right: -8px;
+}
+
+
+.footer {
+   display: flex;
+   justify-content: center;
+   font-family: "Bungee Spice", sans-serif;
+   width: 100%;
+   padding: 10px 50px;
+   font-size: 30px;
+   min-height: 60px;
+   background-color: lightgray;
+}
+
+.nav {
+   display: flex;
+   /* gap: 8px; */
+}
+
+
+
+.header__link {
+   text-decoration: none;
+   color: black;
+   margin-left: 8px;
+   transition: all 2s ease-in-out;
+   /* transition-property: color, text-decoration; */
+}
+
+/* я создал специальный класс со значением display: none */
+
+.header__link--display {
+   display: none;
+}
+
+.header__link:first-child {
+   margin: 0;
+}
+
+.header__link:hover {
+   color: white;
+   text-decoration: underline;
+}
+
+/* .header__link:last-child {
+   color: white;
+} */
+
+
+@media (max-width: 768px) {
+
+   .header {
+      background-color: rgb(168, 143, 188);
+   }
+
+   .footer {
+      justify-content: end;
+   }
+
+
+}
+
+
+@media (max-width: 390px) {
+   .header {
+      background-color: darkseagreen;
+   }
+
+   .header__link {
+      /* элементы пропадают из верстки, но остаются в коде */
+      display: none;
+      /*элементы становятся невидимыми и остаются в коде */
+      /* visibility: hidden; */
+   }
+
+   .header__link--display {
+      display: inline;
+   }
+
+   .footer {
+      justify-content: start;
+   }
+
+
+}
