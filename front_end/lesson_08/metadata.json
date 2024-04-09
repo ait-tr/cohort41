@@ -2,7 +2,7 @@
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
-  "code": ["./code/readme", "./code/index.html"],
+  "code": ["./code/readme.md", "./code/index.html"],
   "video": "",
   "etc": ""
 }
