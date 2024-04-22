@@ -1,9 +1,8 @@
 ## Plan
 
-1. Object literal
-2. Prototype inheritance
-3. Class, constructor
-4. inheritance 
+1. Prototype inheritance
+2. Class, constructor
+3. inheritance
 
 
 
