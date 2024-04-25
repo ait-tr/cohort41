@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/homework/index.js",
+    "./code/async-await/async-await.js",
+    "./code/async-await/fetch.js",
+    "./code/dog-api/index.html",
+    "./code/dog-api/script.js",
+    "./code/dog-api/style.css",
+    "./code/fox-api/index.html",
+    "./code/fox-api/script.js",
+    "./code/fox-api/style.css",
+    "./code/youtube/youtube.html"
+  ],
+  "video": "",
+  "etc": ""
+}
