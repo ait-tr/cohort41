@@ -1,7 +1,4 @@
-##  Homework
+## Задание 1
 
-### Задание 1
-Задание по ссылке: [ссылка](https://github.com/ait-tr/task_fe-registration-letter-to-santa)  
-Задание по ссылке: [ссылка](https://github.com/ait-tr/task_fe-html-radio-frog-tinder)  
-
-
+Выберите одну API из [списка](https://pxstudio.pw/blog/15-besplatnyh-api-dlya-napisaniya-testovyh-prilozhenij).
+Сделайте fetch запрос, разместите полученную от API информацию на странице html.
