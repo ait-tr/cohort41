@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Fake Store API</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Upload items:</h1>
+      <form id="formItems">
+        <input
+          type="text"
+          placeholder="type amount of items"
+          name="amount"
+          required
+        />
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+
+    <div id="loader" class="loader" style="display: none"></div>
+    <div class="content" id="content" style="display: none">
+      <h3>Product list:</h3>
+      <div class="productList" id="productList"></div>
+    </div>
+  </body>
+</html>

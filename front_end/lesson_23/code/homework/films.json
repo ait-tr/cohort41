@@ -1,0 +1,37 @@
+[
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "desc": "epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson, based on 1954's The Fellowship of the Ring",
+    "actors": ["Elijah Wood", "Ian McKellen", "Liv Tyler", "Viggo Mortensen"],
+    "year": 2001,
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "desc": "epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R. R. Tolkien.",
+    "actors": [
+      "Sean Astin",
+      "Cate Blanchett",
+      "John Rhys-Davies",
+      "Christopher Lee"
+    ],
+    "year": 2002,
+    "img": "https://upload.wikimedia.org/wikipedia/en/a/a1/Lord_Rings_Two_Towers.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "desc": "epic high fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson. It is based on 1955's The Return of the King, the third volume of the novel The Lord of the Rings by J. R. R. Tolkien.",
+    "actors": [
+      "Hugo Weaving",
+      "Miranda Otto",
+      "David Wenham",
+      "Karl Urban",
+      "John Noble",
+      "Andy Serkis",
+      "Ian Holm",
+      "Sean Bean"
+    ],
+    "year": 2023,
+    "img": "https://upload.wikimedia.org/wikipedia/en/4/48/Lord_Rings_Return_King.jpg"
+  }
+]
