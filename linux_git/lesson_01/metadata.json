@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/first_commit/B.java",
+    "code/first_commit/my_package/C.java",
+    "code/first_commit/A.java",
+    "code/third_commit/B.java",
+    "code/third_commit/my_package/C.java",
+    "code/third_commit/A.java",
+    "code/second_commit/A.java"
+  ],
+  "video": "",
+  "etc": ""
+}
